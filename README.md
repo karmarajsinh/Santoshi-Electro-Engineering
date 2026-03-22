@@ -32,10 +32,18 @@ A comprehensive digital platform for **Santoshi Electro Engineering**, showcasin
 ## 📂 Project Structure
 ```bash
 src/
-├── Img/                 # Asset Library (Clients, Products, Gallery)
-├── Pages/               # Page Components (Home, Careers, About)
-│   └── Products/        # Specialized Automation categories
-└── pdfs/                # Technical Documents
+├── Img/                 # Organized image assets
+│   ├── clients/         # Partner and client logos
+│   ├── gallery/         # Industrial project images
+│   └── products/        # Categorized product photography
+├── Pages/               # Core React components for routes
+│   ├── Products/        # Product-specific sub-pages
+│   ├── About.jsx        # Company history and mission
+│   ├── Careers.jsx      # Job listings and HR
+│   ├── Home.jsx         # Landing page with hero banners
+│   └── ...              # Header, Footer, and Contact
+├── pdfs/                # Technical product specifications
+└── App.js               # Main routing and logic
 ```  
 ---
 
