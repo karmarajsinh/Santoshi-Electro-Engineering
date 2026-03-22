@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://santoshielectroengineering.com/static/media/see-main-logo.png" width="200" alt="SEE Logo"/>
+  <img src="https://santoshielectroengineering.com/static/media/see-big-png-white.32c1a13e9660571dc1f7.png" width="200" alt="SEE Logo"/>
 
   # ⚡ Santoshi Electro Engineering 🤖
   **Precision Engineering meets Modern Automation**
@@ -36,6 +36,9 @@ src/
 ├── Pages/               # Page Components (Home, Careers, About)
 │   └── Products/        # Specialized Automation categories
 └── pdfs/                # Technical Documents
+```  
+---
+
 <div align="center">
-<sub>Built with ❤️ by <b>Karmarajsinh Gohil</b></sub>
+  <sub>Built with ❤️ by <b>Karmarajsinh Gohil</b></sub>
 </div>
