@@ -27,14 +27,14 @@ const Footer = () => {
             </p>
             <div className="flex space-x-8">
               <a
-                href="#"
+                href="https://santoshielectroengineering.com/"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition"
               >
                 <FaFacebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://santoshielectroengineering.com/"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition"
               >

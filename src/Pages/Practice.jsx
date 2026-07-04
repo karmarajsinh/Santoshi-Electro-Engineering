@@ -109,7 +109,7 @@ const ComingSoon = () => {
       <footer className="w-full max-w-4xl text-center border-t border-red-100 pt-6">
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="#"
+            href="https://santoshielectroengineering.com/"
             className="text-red-600 hover:text-red-800 transition-colors"
           >
             <svg
@@ -126,7 +126,7 @@ const ComingSoon = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://santoshielectroengineering.com/"
             className="text-red-600 hover:text-red-800 transition-colors"
           >
             <svg
@@ -139,7 +139,7 @@ const ComingSoon = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://santoshielectroengineering.com/"
             className="text-red-600 hover:text-red-800 transition-colors"
           >
             <svg
@@ -156,7 +156,7 @@ const ComingSoon = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://santoshielectroengineering.com/"
             className="text-red-600 hover:text-red-800 transition-colors"
           >
             <svg
