@@ -1,5 +1,5 @@
 import React from "react";
-import seelogo1 from "../Img/logo.png";
+// import seelogo1 from "../Img/logo.png";
 import seelogo from "../Img/see-big-png-white.png";
 import {
   FaFacebook,
@@ -29,6 +29,7 @@ const Footer = () => {
               <a
                 href="https://santoshielectroengineering.com/"
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-400 hover:text-white transition"
               >
                 <FaFacebook className="w-5 h-5" />
@@ -36,6 +37,7 @@ const Footer = () => {
               <a
                 href="https://santoshielectroengineering.com/"
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-400 hover:text-white transition"
               >
                 <FaTwitter className="w-5 h-5" />
@@ -43,6 +45,7 @@ const Footer = () => {
               <a
                 href="https://www.youtube.com/@santoshielectro.engineerin4289"
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-400 hover:text-white transition"
               >
                 <FaYoutube className="w-5 h-5" />
@@ -50,6 +53,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/santoshi.electro/"
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-400 hover:text-white transition"
               >
                 <FaInstagram className="w-5 h-5" />
@@ -57,6 +61,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/see-career-a1813b374/"
                 target="_blank"
+                rel="noreferrer"
                 className="text-gray-400 hover:text-white transition"
               >
                 <FaLinkedin className="w-5 h-5" />

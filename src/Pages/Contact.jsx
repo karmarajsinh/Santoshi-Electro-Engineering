@@ -25,27 +25,27 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const services = [
-    {
-      id: 1,
-      title: "Location",
-      description:
-        "3/6 Corner ,Samrat Industrial Area,Near Chandan Marbel, B/H ST Workshop, Gondal Road, Chandan Marble, Rajkot-360004, Gujarat, India",
-      icon: "https://cdn-icons-png.flaticon.com/128/684/684908.png",
-    },
-    {
-      id: 2,
-      title: "Phone",
-      description: "(+91) 6355965505",
-      icon: "https://cdn-icons-png.flaticon.com/128/484/484525.png",
-    },
-    {
-      id: 3,
-      title: "Email",
-      description: "santoshi.electro@gmail.com",
-      icon: "https://cdn-icons-png.flaticon.com/128/732/732200.png",
-    },
-  ];
+  // const services = [
+  //   {
+  //     id: 1,
+  //     title: "Location",
+  //     description:
+  //       "3/6 Corner ,Samrat Industrial Area,Near Chandan Marbel, B/H ST Workshop, Gondal Road, Chandan Marble, Rajkot-360004, Gujarat, India",
+  //     icon: "https://cdn-icons-png.flaticon.com/128/684/684908.png",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Phone",
+  //     description: "(+91) 6355965505",
+  //     icon: "https://cdn-icons-png.flaticon.com/128/484/484525.png",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Email",
+  //     description: "santoshi.electro@gmail.com",
+  //     icon: "https://cdn-icons-png.flaticon.com/128/732/732200.png",
+  //   },
+  // ];
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.3,

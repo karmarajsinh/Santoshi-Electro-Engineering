@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import hero from "../Img/automation-robot-1.png";
 import innovation from "../Img/innovation-robot.jpg";
 import bg from "../Img/service-bg-layer-red.png";
-import seelogo1 from "../Img/logo.png";
-import mainlogo from "../Img/see-logo-white.jpg";
+// import seelogo1 from "../Img/logo.png";
+// import mainlogo from "../Img/see-logo-white.jpg";
 import Atul from "./../Img/clients/Atul.png";
 import Patel from "./../Img/clients/Patel-tech.png";
 import aec from "./../Img/clients/aec.png";
@@ -31,8 +31,8 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const [showContent, setShowContent] = useState(false);
   const [showImage, setShowImage] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [isVisible, setIsVisible] = useState(true);
+  // const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   // const [showContent, setShowContent] = useState(true);
 
@@ -98,10 +98,10 @@ const Home = () => {
       const currentScrollPos = window.pageYOffset;
 
       if (prevScrollPos > currentScrollPos) {
-        setIsVisible(true);
+        // setIsVisible(true);
       } else if (currentScrollPos > 100) {
-        setIsVisible(false);
-        setMobileMenuOpen(false); // Close mobile menu when scrolling down
+        // setIsVisible(false);
+        // setMobileMenuOpen(false); // Close mobile menu when scrolling down
       }
       setPrevScrollPos(currentScrollPos);
     };

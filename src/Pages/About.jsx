@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import aboutimg from "./../Img/automation-robot-2.png";
 import aboutsee from "./../Img/about-see.jpg";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
-import { FaArrowRight, FaCirclePlay } from "react-icons/fa6";
+import { FaCirclePlay } from "react-icons/fa6";
 import Atul from "./../Img/clients/Atul.png";
 import Patel from "./../Img/clients/Patel-tech.png";
 import aec from "./../Img/clients/aec.png";
@@ -38,10 +38,6 @@ const About = () => {
     setShowContent(true);
     setTimeout(() => setShowImage(true), 50);
   }, []);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   const clientLogos = [
     { src: Atul, alt: "Atul" },
@@ -199,6 +195,7 @@ const About = () => {
                   <a
                     href="https://www.youtube.com/@santoshielectro.engineerin4289"
                     target="_blank"
+                    rel="noreferrer"
                     className="bg-white p-3 sm:p-4 rounded-full shadow-lg hover:bg-red-100 transition-all duration-300 hover:scale-110"
                     aria-label="Youtube Channal"
                   >

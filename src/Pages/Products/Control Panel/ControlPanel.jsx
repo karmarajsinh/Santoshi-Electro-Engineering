@@ -14,9 +14,8 @@ import product3 from "../../../Img/products/control-panel/CNC-Press-Brake-Machin
 import product4 from "../../../Img/products/control-panel/Roll-Forming-Machine-Panel.png";
 import product5 from "../../../Img/products/control-panel/CNC-Grinding-Machine-Panel.png";
 import product6 from "../../../Img/products/control-panel/SPM-Panel.png";
-import { FiCheckCircle, FiShoppingCart } from "react-icons/fi";
-import { BiSolidPhoneCall } from "react-icons/bi";
-import { Link, useNavigate } from "react-router-dom";
+import { FiCheckCircle } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 const ControlPanel = () => {
   const [showImage, setShowImage] = useState(false);
   const [showContent, setShowContent] = useState(false);

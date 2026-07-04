@@ -9,7 +9,7 @@ import {
   MdClose,
   MdContactPhone,
 } from "react-icons/md";
-import { FiCheckCircle, FiShoppingCart, FiHeart } from "react-icons/fi";
+import { FiCheckCircle } from "react-icons/fi";
 import product1 from "../../../Img/products/scara-robots/SCARA-Robots-Systems.png";
 import product2 from "../../../Img/products/robotic-handling/DIR-RH09-06 .png";
 import product3 from "../../../Img/products/robotic-handling/DIR-RH07-08-DIR-RH09-07.png";
@@ -42,7 +42,6 @@ import pdf13 from "../../../pdfs/DIR-RP24-130-INDUSTRIAL-ROBOT-HANDLING-APPLICAT
 import pdf14 from "../../../pdfs/DIR-RW14-10-INDUSTRIAL-ROBOT-HANDLING-APPLICATION.pdf";
 import pdf15 from "../../../pdfs/DIR-RW18-20-INDUSTRIAL-ROBOT-HANDLING-APPLICATION.pdf";
 import pdf16 from "../../../pdfs/DIR-RW20-06-INDUSTRIAL-ROBOT-HANDLING-APPLICATION.pdf";
-import { BiSolidPhoneCall } from "react-icons/bi";
 import { useInView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
 
@@ -443,28 +442,28 @@ const RoboticSystem = () => {
     "industrial-robot-welding-application",
     "scara-robots",
   ];
-  const toggleWishlist = (productId) => {
-    if (wishlist.includes(productId)) {
-      setWishlist(wishlist.filter((id) => id !== productId));
-    } else {
-      setWishlist([...wishlist, productId]);
-    }
-  };
-  const renderRatingStars = (rating) => {
-    const stars = [];
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
+  // const toggleWishlist = (productId) => {
+  //   if (wishlist.includes(productId)) {
+  //     setWishlist(wishlist.filter((id) => id !== productId));
+  //   } else {
+  //     setWishlist([...wishlist, productId]);
+  //   }
+  // };
+  // const renderRatingStars = (rating) => {
+  //   const stars = [];
+  //   const fullStars = Math.floor(rating);
+  //   const hasHalfStar = rating % 1 >= 0.5;
 
-    for (let i = 0; i < fullStars; i++) {
-      stars.push(<MdStar key={`full-${i}`} className="text-yellow-400" />);
-    }
+  //   for (let i = 0; i < fullStars; i++) {
+  //     stars.push(<MdStar key={`full-${i}`} className="text-yellow-400" />);
+  //   }
 
-    if (hasHalfStar) {
-      stars.push(<MdStarHalf key="half" className="text-yellow-400" />);
-    }
+  //   if (hasHalfStar) {
+  //     stars.push(<MdStarHalf key="half" className="text-yellow-400" />);
+  //   }
 
-    return stars;
-  };
+  //   return stars;
+  // };
   const contactUs = () => {
     navigate("/contact");
   };

@@ -6,8 +6,8 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [showHeader, setShowHeader] = useState(true);
-  const [isAtTop, setIsAtTop] = useState(true);
+  // const [showHeader, setShowHeader] = useState(true);
+  // const [isAtTop, setIsAtTop] = useState(true);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -32,20 +32,20 @@ const Header = () => {
 
       // Always show header when at top of page
       if (currentScrollY <= 10) {
-        setIsAtTop(true);
-        setShowHeader(true);
+        // setIsAtTop(true);
+        // setShowHeader(true);
         setLastScrollY(currentScrollY);
         return;
       } else {
-        setIsAtTop(false);
+        // setIsAtTop(false);
       }
 
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
         // Scrolling down
-        setShowHeader(false);
+        // setShowHeader(false);
       } else if (currentScrollY < lastScrollY) {
         // Scrolling up
-        setShowHeader(true);
+        // setShowHeader(true);
       }
 
       setLastScrollY(currentScrollY);

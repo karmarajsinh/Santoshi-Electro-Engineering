@@ -1,21 +1,21 @@
 import { useEffect, useState } from "react";
-import { FiArrowLeft } from "react-icons/fi";
-import { useNavigate } from "react-router-dom";
+// import { FiArrowLeft } from "react-icons/fi";
+// import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import img1 from "../Img/gallery/img1.jpeg";
-import img2 from "../Img/gallery/img2.jpeg";
+// import img2 from "../Img/gallery/img2.jpeg";
 import img3 from "../Img/gallery/img3.jpeg";
 import img4 from "../Img/gallery/img4.jpeg";
-import img5 from "../Img/gallery/img5.jpeg";
+// import img5 from "../Img/gallery/img5.jpeg";
 import img6 from "../Img/gallery/img6.jpeg";
 import img7 from "../Img/gallery/img7.jpeg";
 import img8 from "../Img/gallery/img8.jpeg";
 import img9 from "../Img/gallery/img9.jpg";
 import img10 from "../Img/gallery/img10.jpg";
-import img11 from "../Img/gallery/img11.jpg";
-import img12 from "../Img/gallery/img12.jpg";
-import img13 from "../Img/gallery/img13.jpg";
+// import img11 from "../Img/gallery/img11.jpg";
+// import img12 from "../Img/gallery/img12.jpg";
+// import img13 from "../Img/gallery/img13.jpg";
 import img14 from "../Img/gallery/img14.jpg";
 import img15 from "../Img/gallery/img15.jpg";
 import { motion, AnimatePresence } from "framer-motion";
@@ -92,15 +92,15 @@ const galleryData = [
 ];
 
 const Gallery = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState("all");
   const [selectedImage, setSelectedImage] = useState(null);
-  const [isVisible, setIsVisible] = useState(false);
+  // const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    setIsVisible(true);
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   setIsVisible(true);
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   const filters = [
     { id: "all", name: "All" },
